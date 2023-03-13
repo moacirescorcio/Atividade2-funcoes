@@ -44,12 +44,12 @@ function calculo_iac(quadril,altura){
 }
 
 function quadril_minimo(altura){
-    const q_min = ((altura * Math.sqrt(altura)-18))/9
+    const q_min = (altura * Math.sqrt(altura)) * 27
     return q_min
 }
 
 function quadril_maximo(altura){
-    const q_max = ((altura * Math.sqrt(altura)-18))/20.9
+    const q_max = ((altura * Math.sqrt(altura))) * 38.9
     return q_max
 }
 
